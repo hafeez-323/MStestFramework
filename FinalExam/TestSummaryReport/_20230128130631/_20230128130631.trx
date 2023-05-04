@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="521c042b-ce95-4d6b-a168-c9a8c45a7328" name="mujee@LAPTOP-D8KES1NV 2023-01-28 13:06:38" runUser="LAPTOP-D8KES1NV\mujee" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-01-28T13:06:38.8778932+05:00" queuing="2023-01-28T13:06:38.8778932+05:00" start="2023-01-28T13:06:35.3102891+05:00" finish="2023-01-28T13:06:43.1104740+05:00" />
+  <TestSettings name="default" id="e886fc3a-51e8-4277-9322-a7e7d657212a">
+    <Deployment runDeploymentRoot="mujee_LAPTOP-D8KES1NV_2023-01-28_13_06_38" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="45388f7b-8cc3-4419-96d5-208606824f07" testId="cdd45b9e-c1e2-49d8-9e32-81cbbebd85e0" testName="LoginTC_001" computerName="LAPTOP-D8KES1NV" duration="00:00:02.6276855" startTime="2023-01-28T13:06:36.0764926+05:00" endTime="2023-01-28T13:06:38.7961119+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45388f7b-8cc3-4419-96d5-208606824f07">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method FinalExam.TestExecution.LoginTC_001 threw exception: &#xD;
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at FinalExam.LoginPage.Login1(String user, String pass) in C:\Users\mujee\source\repos\FinalExam\FinalExam\SauceDemo\LoginPage\LoginPage.cs:line 15&#xD;
+   at FinalExam.TestExecution.LoginTC_001() in C:\Users\mujee\source\repos\FinalExam\FinalExam\SauceDemo\TestExecution.cs:line 22&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b7ac75f6-5094-4c69-9bfb-83552190de14" testId="ec3c03ab-1479-4952-8183-dbf720579e07" testName="Login1" computerName="LAPTOP-D8KES1NV" duration="00:00:00.0048151" startTime="2023-01-28T13:06:42.9020294+05:00" endTime="2023-01-28T13:06:42.9139975+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7ac75f6-5094-4c69-9bfb-83552190de14">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method FinalExam.LoginPage.Login1 threw exception: &#xD;
+Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.ObjectModel.TestFailedException: Only data driven test methods can have parameters. Did you intend to use [DataRow] or [DynamicData]?</Message>
+          <StackTrace>   at Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.ThreadOperations.ExecuteWithAbortSafety(Action action)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1472c1f9-35cb-44a6-825e-855f9269650b" testId="7b30b736-3b79-4746-b3be-04498b9f7d5a" testName="CheckOutTC_001" computerName="LAPTOP-D8KES1NV" duration="00:00:02.2046576" startTime="2023-01-28T13:06:40.6961934+05:00" endTime="2023-01-28T13:06:42.9020294+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1472c1f9-35cb-44a6-825e-855f9269650b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method FinalExam.TestExecution.CheckOutTC_001 threw exception: &#xD;
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at FinalExam.LoginPage.Login1(String user, String pass) in C:\Users\mujee\source\repos\FinalExam\FinalExam\SauceDemo\LoginPage\LoginPage.cs:line 15&#xD;
+   at FinalExam.TestExecution.CheckOutTC_001() in C:\Users\mujee\source\repos\FinalExam\FinalExam\SauceDemo\TestExecution.cs:line 43&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d0f63a74-e938-44be-a966-df82e6a48b6b" testId="9a50a6c9-913d-47cc-b579-dd6a5b6a1fcb" testName="AddProductTC_001" computerName="LAPTOP-D8KES1NV" duration="00:00:01.8491461" startTime="2023-01-28T13:06:38.8459784+05:00" endTime="2023-01-28T13:06:40.6961934+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0f63a74-e938-44be-a966-df82e6a48b6b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method FinalExam.TestExecution.AddProductTC_001 threw exception: &#xD;
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at FinalExam.LoginPage.Login1(String user, String pass) in C:\Users\mujee\source\repos\FinalExam\FinalExam\SauceDemo\LoginPage\LoginPage.cs:line 15&#xD;
+   at FinalExam.TestExecution.AddProductTC_001() in C:\Users\mujee\source\repos\FinalExam\FinalExam\SauceDemo\TestExecution.cs:line 35&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="CheckOutTC_001" storage="c:\users\mujee\source\repos\finalexam\finalexam\bin\debug\finalexam.dll" id="7b30b736-3b79-4746-b3be-04498b9f7d5a">
+      <Execution id="1472c1f9-35cb-44a6-825e-855f9269650b" />
+      <TestMethod codeBase="C:\Users\mujee\source\repos\FinalExam\FinalExam\bin\Debug\FinalExam.dll" adapterTypeName="executor://mstestadapter/v2" className="FinalExam.TestExecution" name="CheckOutTC_001" />
+    </UnitTest>
+    <UnitTest name="AddProductTC_001" storage="c:\users\mujee\source\repos\finalexam\finalexam\bin\debug\finalexam.dll" id="9a50a6c9-913d-47cc-b579-dd6a5b6a1fcb">
+      <Execution id="d0f63a74-e938-44be-a966-df82e6a48b6b" />
+      <TestMethod codeBase="C:\Users\mujee\source\repos\FinalExam\FinalExam\bin\Debug\FinalExam.dll" adapterTypeName="executor://mstestadapter/v2" className="FinalExam.TestExecution" name="AddProductTC_001" />
+    </UnitTest>
+    <UnitTest name="LoginTC_001" storage="c:\users\mujee\source\repos\finalexam\finalexam\bin\debug\finalexam.dll" id="cdd45b9e-c1e2-49d8-9e32-81cbbebd85e0">
+      <Execution id="45388f7b-8cc3-4419-96d5-208606824f07" />
+      <TestMethod codeBase="C:\Users\mujee\source\repos\FinalExam\FinalExam\bin\Debug\FinalExam.dll" adapterTypeName="executor://mstestadapter/v2" className="FinalExam.TestExecution" name="LoginTC_001" />
+    </UnitTest>
+    <UnitTest name="Login1" storage="c:\users\mujee\source\repos\finalexam\finalexam\bin\debug\finalexam.dll" id="ec3c03ab-1479-4952-8183-dbf720579e07">
+      <Execution id="b7ac75f6-5094-4c69-9bfb-83552190de14" />
+      <TestMethod codeBase="C:\Users\mujee\source\repos\FinalExam\FinalExam\bin\Debug\FinalExam.dll" adapterTypeName="executor://mstestadapter/v2" className="FinalExam.LoginPage" name="Login1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="cdd45b9e-c1e2-49d8-9e32-81cbbebd85e0" executionId="45388f7b-8cc3-4419-96d5-208606824f07" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec3c03ab-1479-4952-8183-dbf720579e07" executionId="b7ac75f6-5094-4c69-9bfb-83552190de14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b30b736-3b79-4746-b3be-04498b9f7d5a" executionId="1472c1f9-35cb-44a6-825e-855f9269650b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9a50a6c9-913d-47cc-b579-dd6a5b6a1fcb" executionId="d0f63a74-e938-44be-a966-df82e6a48b6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="0" failed="4" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

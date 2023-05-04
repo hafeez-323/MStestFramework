@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Automation> 
+        <Execution>
+           <LoginTCInvalid_001>
+                   
+                   <username>problem_user</username> 
+                   <password>secret_sauce</password>
+			</LoginTCInvalid_001>
+			
+        </Execution>
+</Automation>

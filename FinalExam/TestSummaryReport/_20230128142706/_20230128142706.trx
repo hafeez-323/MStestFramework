@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="93698f13-c833-42a9-9203-47bb2237e0e0" name="mujee@LAPTOP-D8KES1NV 2023-01-28 14:27:26" runUser="LAPTOP-D8KES1NV\mujee" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-01-28T14:27:26.6791943+05:00" queuing="2023-01-28T14:27:26.6791943+05:00" start="2023-01-28T14:27:07.9854304+05:00" finish="2023-01-28T14:27:34.2132435+05:00" />
+  <TestSettings name="default" id="e35b6d24-daf3-431c-b0e3-6bfc53f67e36">
+    <Deployment runDeploymentRoot="mujee_LAPTOP-D8KES1NV_2023-01-28_14_27_26" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="9e7dadc3-1134-47d2-99a9-71485801078a" testId="e80e44dc-9f3a-4534-be24-91c93daef78c" testName="AddProductTC_001" computerName="LAPTOP-D8KES1NV" duration="00:00:02.4603456" startTime="2023-01-28T14:27:29.1569107+05:00" endTime="2023-01-28T14:27:31.6179827+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e7dadc3-1134-47d2-99a9-71485801078a" />
+    <UnitTestResult executionId="8a23be57-ea4b-44f3-b78a-6c872e755f3b" testId="05c08259-8539-4d9d-a39c-85fffef3582b" testName="LoginTCValid_002" computerName="LAPTOP-D8KES1NV" duration="00:00:02.4941152" startTime="2023-01-28T14:27:26.6622392+05:00" endTime="2023-01-28T14:27:29.1569107+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a23be57-ea4b-44f3-b78a-6c872e755f3b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method FinalExam.TestExecution.LoginTCValid_002 threw exception: &#xD;
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
+  (Session info: chrome=109.0.5414.120)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)&#xD;
+   at OpenQA.Selenium.By.&lt;.ctor&gt;b__11_0(ISearchContext context)&#xD;
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)&#xD;
+   at OpenQA.Selenium.WebDriver.FindElement(By by)&#xD;
+   at FinalExam.SauceDemo.CheckOut.Checkout.CheckOut() in C:\Users\mujee\source\repos\FinalExam\FinalExam\SauceDemo\CheckOut\Checkout.cs:line 23&#xD;
+   at FinalExam.TestExecution.LoginTCValid_002() in C:\Users\mujee\source\repos\FinalExam\FinalExam\SauceDemo\TestExecution.cs:line 44&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="168cc130-84f5-468d-af42-3c920540ed95" testId="23297bf3-7540-45f5-8a4b-d18dbecb8888" testName="CheckOutTC_001" computerName="LAPTOP-D8KES1NV" duration="00:00:02.4745385" startTime="2023-01-28T14:27:31.6179827+05:00" endTime="2023-01-28T14:27:34.0935630+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="168cc130-84f5-468d-af42-3c920540ed95">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method FinalExam.TestExecution.CheckOutTC_001 threw exception: &#xD;
+OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}
+  (Session info: chrome=109.0.5414.120)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)&#xD;
+   at OpenQA.Selenium.By.&lt;.ctor&gt;b__11_0(ISearchContext context)&#xD;
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)&#xD;
+   at OpenQA.Selenium.WebDriver.FindElement(By by)&#xD;
+   at FinalExam.SauceDemo.CheckOut.Checkout.CheckOut() in C:\Users\mujee\source\repos\FinalExam\FinalExam\SauceDemo\CheckOut\Checkout.cs:line 23&#xD;
+   at FinalExam.TestExecution.CheckOutTC_001() in C:\Users\mujee\source\repos\FinalExam\FinalExam\SauceDemo\TestExecution.cs:line 64&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="420d8706-920b-4c23-a1c5-18890ee5aa5e" testId="1938da12-2906-473d-aee2-3f17cb91b5d6" testName="LoginTCInvalid_001 (Data Row 0)" computerName="LAPTOP-D8KES1NV" duration="00:00:18.1198356" startTime="2023-01-28T14:27:08.3863512+05:00" endTime="2023-01-28T14:27:26.6492743+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="420d8706-920b-4c23-a1c5-18890ee5aa5e" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="LoginTCInvalid_001 (Data Row 0)" storage="c:\users\mujee\source\repos\finalexam\finalexam\bin\debug\finalexam.dll" id="1938da12-2906-473d-aee2-3f17cb91b5d6">
+      <Execution id="420d8706-920b-4c23-a1c5-18890ee5aa5e" />
+      <TestMethod codeBase="C:\Users\mujee\source\repos\FinalExam\FinalExam\bin\Debug\FinalExam.dll" adapterTypeName="executor://mstestadapter/v2" className="FinalExam.TestExecution" name="LoginTCInvalid_001" />
+    </UnitTest>
+    <UnitTest name="AddProductTC_001" storage="c:\users\mujee\source\repos\finalexam\finalexam\bin\debug\finalexam.dll" id="e80e44dc-9f3a-4534-be24-91c93daef78c">
+      <Execution id="9e7dadc3-1134-47d2-99a9-71485801078a" />
+      <TestMethod codeBase="C:\Users\mujee\source\repos\FinalExam\FinalExam\bin\Debug\FinalExam.dll" adapterTypeName="executor://mstestadapter/v2" className="FinalExam.TestExecution" name="AddProductTC_001" />
+    </UnitTest>
+    <UnitTest name="LoginTCValid_002" storage="c:\users\mujee\source\repos\finalexam\finalexam\bin\debug\finalexam.dll" id="05c08259-8539-4d9d-a39c-85fffef3582b">
+      <Execution id="8a23be57-ea4b-44f3-b78a-6c872e755f3b" />
+      <TestMethod codeBase="C:\Users\mujee\source\repos\FinalExam\FinalExam\bin\Debug\FinalExam.dll" adapterTypeName="executor://mstestadapter/v2" className="FinalExam.TestExecution" name="LoginTCValid_002" />
+    </UnitTest>
+    <UnitTest name="CheckOutTC_001" storage="c:\users\mujee\source\repos\finalexam\finalexam\bin\debug\finalexam.dll" id="23297bf3-7540-45f5-8a4b-d18dbecb8888">
+      <Execution id="168cc130-84f5-468d-af42-3c920540ed95" />
+      <TestMethod codeBase="C:\Users\mujee\source\repos\FinalExam\FinalExam\bin\Debug\FinalExam.dll" adapterTypeName="executor://mstestadapter/v2" className="FinalExam.TestExecution" name="CheckOutTC_001" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e80e44dc-9f3a-4534-be24-91c93daef78c" executionId="9e7dadc3-1134-47d2-99a9-71485801078a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="05c08259-8539-4d9d-a39c-85fffef3582b" executionId="8a23be57-ea4b-44f3-b78a-6c872e755f3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="23297bf3-7540-45f5-8a4b-d18dbecb8888" executionId="168cc130-84f5-468d-af42-3c920540ed95" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1938da12-2906-473d-aee2-3f17cb91b5d6" executionId="420d8706-920b-4c23-a1c5-18890ee5aa5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="2" failed="2" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
